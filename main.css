@@ -1,0 +1,375 @@
+/* Reset Stylesheet */
+
+html, body, div, span, 
+h1, h2, h3, p, blockquote, 
+img, strong, ul, li,
+footer, header, nav, section {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    list-style-type: none;
+}
+
+body {
+    line-height:1;
+}
+
+footer, header, nav, section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote {
+    quotes:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/***** MY CSS *****/ 
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #161616;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header #logo {
+    background: url(images/head-logo.png) no-repeat;
+    height: 70px;
+    width: 280px;
+    float: left;
+    text-indent: -10000;  
+}
+
+header #logo:hover {
+    filter : gray;
+    -webkit-filter: grayscale(100%);
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: white;
+    font-family: 'arial';
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header nav a:hover {
+    font-weight: 550;
+}
+
+header nav li {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav span {
+    color: #50b106;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#photo-banner img {
+    max-height: 500px;
+}
+
+#text-banner {
+    color: white;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: normal;
+    font-family: 'myriad Pro';
+    position: relative;
+    top: -340px;
+}
+
+.over-banner p {
+    color: white;
+    font-family: 'myriad Pro';
+    font-size: 24px;
+    font-weight: normal;
+    position: relative;
+    top: -337px;
+    max-width: 600px;
+}
+
+.over-banner a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 60px 15px 60px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-family: 'myriad Pro';
+    font-size: 24px;
+    position: relative;
+    top: -250px;
+    background-color: #4cac07;
+    box-shadow: 2px -1px 5px 2px rgba(0,0,0,0.5);
+}
+
+.over-banner a:hover {
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.over-banner {
+    margin: 0;
+    height: 0;
+}
+
+#photo-banner:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section {
+    margin: 30px 0 80px;
+}
+
+#our-services h2 {
+    margin: 0;
+    height: 0;
+    text-indent: -10000px;
+}
+
+#our-services li {
+    float: left;
+    width: 32%;
+    margin: 0 auto;
+}
+
+#our-services li:nth-child(2) {
+    margin: 0px 3%;
+}
+
+
+section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#our-services h3 {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'myriad Pro';
+    font-weight: normal;
+    color: #8c8b8b;
+    font-size: 30px;
+} 
+
+#our-services p {
+    text-align: justify;
+    width: 80%;
+    margin: 15px auto;
+    color: #8c8b8b;
+    line-height: 1.3em;
+}
+
+#our-services img {
+    width: 100%;
+}
+
+section#clients {
+    border-top: 1px solid #d6d6d6;
+} 
+
+#clients h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #52b106;
+    font-family: 'Myriad Pro';
+    font-size: 22px;
+    font-weight: normal;
+    border-radius: 3px;
+    margin: -19px 440px 50px;
+    padding: 10px 5px 5px;
+    width: 250px;
+    border-left: 16px solid #fff;
+    border-right: 16px solid #fff;
+}
+
+section#clients:hover{
+    border-top: 1px solid #b9b8b8;
+}
+
+
+#clients h2:hover {
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#clients img {
+    float: left;
+    width: 30%;
+}
+
+#clients blockquote {
+    float: right;
+    color: #8c8b8b;
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    text-align: justify;
+    font-size: 18px;
+    width: 47%;
+    margin-top: 30px;
+    margin-right: 210px;
+    padding-top: 40px;
+    line-height: 1.5em;
+    background: url(images/quote.png) no-repeat top left;
+}
+
+section#contact {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 20px;
+} 
+
+section#contact:hover {
+    border-top: 1px solid #b9b8b8;
+    border-bottom: 1px solid #b9b8b8;
+}
+
+#contact h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #52b106;
+    font-family: 'Myriad Pro';
+    font-size: 22px;
+    font-weight: normal;
+    margin: -19px auto 50px;
+    width: 180px;
+    padding: 10px 0 5px;
+    border-left: 16px solid #fff;
+    border-right: 16px solid #fff;
+}
+
+#contact h2:hover{
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#reaching-us {
+    float: left;
+}
+
+#reaching-us li {
+    color: #8b8b8b;
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    font-weight: normal; 
+    line-height: 35px;
+    clear: left;
+}
+
+#reaching-us li:before {
+    content: "";
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url(images/social.png) no-repeat;
+}
+
+#reaching-us li:nth-child(1):before {
+    background-position: -161px 0;
+}
+
+#reaching-us li:nth-child(2):before {
+    background-position: -240px 0;
+}
+
+#reaching-us li:nth-child(3):before {
+    background-position: -202px 0;
+}
+
+#contact img {
+    float: right;
+    border: 1px solid #808080;
+    border-radius: 2px;
+}
+
+#social {
+    clear: both;
+    position: relative;
+    top: -35px;
+}
+
+#social li {
+    float: left;
+    background: url(images/social.png) no-repeat;
+    width: 40px;
+    height: 30px;
+    text-indent: -10000px;
+}
+
+#social li:nth-child(2){
+    background-position: -40px 0;
+}
+
+#social li:nth-child(3){
+    background-position: -80px 0;
+}
+
+#social li:nth-child(4){
+    background-position: -120px 0;
+}
+
+#social li a{
+    display: block;
+    widows: 100%;
+    height: 100%;
+    text-indent: -10000px;
+}
+
+#copy-right {
+    margin: 25px 1px 21px;
+    font-family: 'myriad Pro';
+    font-size: 14px;
+    color: #333;
+}
+
+#copy-right a {
+    font-family: 'Forte';
+    font-weight: 600;
+    color: #333;
+    padding-left: 0.2vw;
+    text-decoration: none;
+}
