@@ -39,6 +39,26 @@ a {
 }
 
 /***** MY CSS *****/ 
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url(../Fonts-Package/Myriad Pro Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Brush Script Std Medium';
+    src: url(../Fonts-Package/Brush Script Std Medium.ttf)
+}
+
+@font-face {
+    font-family: 'Maiandra GD Regular';
+    src: url(../Fonts-Package/Maiandra GD Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Forte Regular';
+    src: url(../Fonts-Package/Forte Regular.ttf)
+}
+
 
 .wrapper {
     width: 100%;
@@ -80,7 +100,7 @@ header nav {
 
 header nav a {
     color: white;
-    font-family: 'arial';
+    font-family: 'Myriad Pro Regular';
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -110,14 +130,14 @@ header nav span {
     text-transform: uppercase;
     font-size: 75px;
     font-weight: normal;
-    font-family: 'myriad Pro';
+    font-family: 'Myriad Pro Regular';
     position: relative;
     top: -340px;
 }
 
 .over-banner p {
     color: white;
-    font-family: 'myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-size: 24px;
     font-weight: normal;
     position: relative;
@@ -132,7 +152,7 @@ header nav span {
     padding: 20px 60px 15px 60px;
     border-radius: 5px;
     font-weight: normal;
-    font-family: 'myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-size: 24px;
     position: relative;
     top: -250px;
@@ -187,7 +207,7 @@ section:after {
 #our-services h3 {
     margin-top: 15px;
     text-align: center;
-    font-family: 'myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-weight: normal;
     color: #8c8b8b;
     font-size: 30px;
@@ -214,7 +234,7 @@ section#clients {
     text-transform: uppercase;
     color: #fff;
     background: #52b106;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-size: 22px;
     font-weight: normal;
     border-radius: 3px;
@@ -243,7 +263,7 @@ section#clients:hover{
 #clients blockquote {
     float: right;
     color: #8c8b8b;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-style: italic;
     text-align: justify;
     font-size: 18px;
@@ -271,7 +291,7 @@ section#contact:hover {
     text-transform: uppercase;
     color: #fff;
     background: #52b106;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-size: 22px;
     font-weight: normal;
     margin: -19px auto 50px;
@@ -292,7 +312,7 @@ section#contact:hover {
 
 #reaching-us li {
     color: #8b8b8b;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-size: 14px;
     font-weight: normal; 
     line-height: 35px;
@@ -361,15 +381,16 @@ section#contact:hover {
 
 #copy-right {
     margin: 25px 1px 21px;
-    font-family: 'myriad Pro';
+    font-family: 'Myriad Pro Regular';
     font-size: 14px;
     color: #333;
 }
 
 #copy-right a {
-    font-family: 'Forte';
+    font-family: 'Forte Regular';
     font-weight: 600;
     color: #333;
     padding-left: 0.2vw;
     text-decoration: none;
 }
+
